@@ -133,22 +133,22 @@ ComfyUI/models/vitmatte/vitmatte-small-composition-1k/config.json
 
 Sa2VA Loader 默认包含以下候选：
 
-```text
-kumuji/Sa2VA-i-1B
-ByteDance/Sa2VA-Qwen3-VL-4B
-ByteDance/Sa2VA-InternVL3-2B
-ByteDance/Sa2VA-Qwen2_5-VL-3B
-ByteDance/Sa2VA-Qwen2_5-VL-7B
-ByteDance/Sa2VA-InternVL3-8B
-ByteDance/Sa2VA-InternVL3-14B
-```
+| 模型名 | Hugging Face |
+| --- | --- |
+| `kumuji/Sa2VA-i-1B` | [huggingface.co/kumuji/Sa2VA-i-1B](https://huggingface.co/kumuji/Sa2VA-i-1B) |
+| `ByteDance/Sa2VA-Qwen3-VL-4B` | [huggingface.co/ByteDance/Sa2VA-Qwen3-VL-4B](https://huggingface.co/ByteDance/Sa2VA-Qwen3-VL-4B) |
+| `ByteDance/Sa2VA-InternVL3-2B` | [huggingface.co/ByteDance/Sa2VA-InternVL3-2B](https://huggingface.co/ByteDance/Sa2VA-InternVL3-2B) |
+| `ByteDance/Sa2VA-Qwen2_5-VL-3B` | [huggingface.co/ByteDance/Sa2VA-Qwen2_5-VL-3B](https://huggingface.co/ByteDance/Sa2VA-Qwen2_5-VL-3B) |
+| `ByteDance/Sa2VA-Qwen2_5-VL-7B` | [huggingface.co/ByteDance/Sa2VA-Qwen2_5-VL-7B](https://huggingface.co/ByteDance/Sa2VA-Qwen2_5-VL-7B) |
+| `ByteDance/Sa2VA-InternVL3-8B` | [huggingface.co/ByteDance/Sa2VA-InternVL3-8B](https://huggingface.co/ByteDance/Sa2VA-InternVL3-8B) |
+| `ByteDance/Sa2VA-InternVL3-14B` | [huggingface.co/ByteDance/Sa2VA-InternVL3-14B](https://huggingface.co/ByteDance/Sa2VA-InternVL3-14B) |
 
 VITMatte Loader 默认包含：
 
-```text
-hustvl/vitmatte-base-composition-1k
-hustvl/vitmatte-small-composition-1k
-```
+| 模型名 | Hugging Face |
+| --- | --- |
+| `hustvl/vitmatte-base-composition-1k` | [huggingface.co/hustvl/vitmatte-base-composition-1k](https://huggingface.co/hustvl/vitmatte-base-composition-1k) |
+| `hustvl/vitmatte-small-composition-1k` | [huggingface.co/hustvl/vitmatte-small-composition-1k](https://huggingface.co/hustvl/vitmatte-small-composition-1k) |
 
 如果本地没有找到对应目录，Transformers 会按模型名尝试从 Hugging Face 下载。
 
